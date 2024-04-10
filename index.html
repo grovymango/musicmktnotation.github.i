@@ -7,27 +7,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet"> <title>HUMAN 2DH3 Final Design Project</title>
-<script src="path/to/chartjs/dist/chart.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   </head>
   <body>
     <div class="header">
       <h1>Music (Market) Notations</h1>
       <p id="subheading-credits">HUMAN 2DH3 Final Design Project by Tram Nguyen</p>
     </div>
+<div class="music-graph-container">
     <div class="music-notation-graph">
       <div class="music-bar"></div>
       <div class="music-bar"></div>
       <div class="music-bar"></div>
       <div class="music-bar"></div>
+      </div>
+    <div class="music-notes">
+    <div id="treble-clef" class="music-notation"></div>
+    <div id="time-sig" class="music-notation"></div>
+    <a id="note-1" class="music-notation">
+      <img src="./Assets/lower-half-note.png">
+      <span>2011</span>
+    </a>
+    <a id="note-2" class="music-notation">
+      <img src="./Assets/low-half-note.png">
+      <span>2012</span>
+    </a>
+    <a id="note-3" class="music-notation">
+      <img src="./Assets/lower-half-note.png">
+      <span>2013</span>
+    </a>
+    <a id="note-4" class="music-notation">
+      <img src="./Assets/lower-half-note.png">
+      <span>2014</span>
+    </a>
+    <a id="note-5" class="music-notation">
+      <img src="./Assets/lower-half-note.png">
+      <span>2015</span>
+    </a>
+    <a id="note-6" class="music-notation">
+      <img src="./Assets/low-half-note.png">
+      <span>2016</span>
+    </a>
+    <a id="note-7" class="music-notation">
+      <img src="./Assets/low-half-note.png">
+      <span>2017</span>
+    </a>
+    <a id="note-8" class="music-notation">
+      <img src="./Assets/low-half-note.png">
+      <span>2018</span>
+    </a>
+    <a id="note-9" class="music-notation">
+      <img src="./Assets/low-half-note.png">
+      <span>2019</span>
+    </a>
+    <a id="note-10" class="music-notation">
+      <img src="./Assets/low-half-note.png">
+      <span>2020</span>
+    </a>
+    <a id="note-11" class="music-notation">
+      <img src="./Assets/low-half-note.png">
+      <span>2021</span>
+    </a>
+    <a id="note-12" class="music-notation">
+      <img src="./Assets/high-half-note.png">
+      <span>2022</span>
+    </a>
+    <a id="note-13" class="music-notation">
+      <img src="./Assets/high-qrter-note.png">
+      <span>2023</span>
+    </a>
     </div>
-    <div class="pie-chart 2011">
-      <div class="slice concert"></div>
-      <div class="slice physical"></div>
-      <div class="slice streaming"></div>
-      <div class="slice downloads"></div>
-      <div class="slice perf-rights"></div>
-      <div class="slice synchron"></div>
     </div>
+
+    
+    <audio controls src="./Assets/Total Music Market Revenue.mp3" style="margin:auto; display:flex;"></audio>
+
+    <div id="pieSlice1" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice2" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice3" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice4" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice5" class="hold"><div class="pie"></div></div>
+      <div id="pieSlice6" class="hold"><div class="pie"></div>
     
     <div class="data-source">
       This data is sourced from:

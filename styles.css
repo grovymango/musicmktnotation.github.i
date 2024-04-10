@@ -1,5 +1,5 @@
 
-*{
+body{
     background-color:beige;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -27,9 +27,21 @@ body{
     text-align:center;
 }
 
+.music-graph-container{
+    margin-top:60px;
+    margin-bottom:130px;
+}
+
 .music-notation-graph{
-    height:100px;
     width:100%;
+    top:50px;
+}
+
+.music-notes{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top:-83px;
 }
 .data-source{
     font-size:9px;
@@ -44,37 +56,92 @@ body{
     width:100%;
     margin-bottom:10px;
 }
+.music-notation{
+    background-size: contain;
+    z-index:9999;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:12px;
+    position:relative;
+}
+.music-notation img{
+    height:50px;
+    width:50px;
+    margin-bottom: 20px;
+}
+
+a:hover.music-notation{
+    cursor:pointer;
+    color:blue;
+}
+#treble-clef{
+    background-image: url(./Assets/treble\ clef.png);
+    top:21px;
+    width:80px;
+    height:80px;
+}
+#time-sig{
+    background-image: url(./Assets/time-sig.png);
+    top:34px;
+    margin-left:-20px;
+    width:40px;
+    height:40px;
+}
+
+
+#note-1{
+    top:49px;
+}
+
+#note-2{
+    top:45px;
+}
+#note-3{
+    top:49px;
+}
+#note-4{
+    top:49px;
+}
+#note-5{
+    top:49px;
+}
+
+#note-6{
+    top:39px;
+}
+#note-7{
+    top:34px;
+}
+#note-8{
+    top:27px;
+}
+
+#note-9{
+    top:22px;
+}
+
+#note-10{
+    top:45px;
+}
+
+#note-11{
+    top:22px;
+}
+
+#note-12{
+    top:28px;
+}
+
+
+
+
+
 /*pie chart*/
 
-.pie-chart {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 50%;
-    background: conic-gradient(
-      #ff5722 0% 32.2%,
-      #ffc107 32.2% 69.1%,
-      #2196f3 69.1% 72.1%,
-      #4caf50 72.1% 92%,
-      #9c27b0 92% 98.5%,
-      #ff9800 98.5% 100%
-    );
-  }
-  
-  .slice {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(50% 50%, 100% 100%, 0% 100%);
-  }
-  
-  .concert, .physical, .streaming, .downloads, .perf-rights,.synchron {
-    transform: rotate(0deg);
-  }
-  
-  
-  .physical {
-    background-image: url('./Multistix-Urinalysis-Color-Key\ \(1\).png'); /* Change the URL to your desired image */
-    background-size: cover;
-  }
-   
+.pie-chart{
+    position:absolute;
+    width:150px;
+    height:150px;
+    border-radius:100%;
+}
