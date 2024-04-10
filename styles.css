@@ -26,6 +26,12 @@ body{
 .header{
     text-align:center;
 }
+.header img{
+    position: relative;
+    margin-top: -52px;
+    margin-right: -17px;
+    margin-bottom: 30px;
+}
 
 .music-graph-container{
     margin-top:80px;
@@ -51,7 +57,7 @@ body{
 /* music notation */
 .music-bar{
     height:2px;
-    background-color: #44444432;
+    background-color: #0000ff1e;
     z-index:-9999;
     width:100%;
     margin-bottom:10px;
