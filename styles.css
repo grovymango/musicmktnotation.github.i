@@ -1,3 +1,46 @@
+
 *{
     background-color:beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Instrument Serif', serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size:20px;
+}
+#subheading-credits{
+    margin-top:-30px;
+    font-size:16px;
+}
+body{
+    padding:10px;
+}
+
+.header{
+    text-align:center;
+}
+
+.music-notation-graph{
+    height:100px;
+    width:100%;
+}
+.data-source{
+    font-size:9px;
+    color: darkgrey;
+    left: 2px;
+}
+
+.music-bar{
+    height:2px;
+    background-color: #44444432;
+    z-index:-9999;
+    width:100%;
+    margin-bottom:10px;
 }
