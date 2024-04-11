@@ -72,11 +72,16 @@ body{
     font-size:12px;
     position:relative;
 }
-.music-notation img{
+
+.note-img{
     height:50px;
     width:50px;
-    margin-bottom: 20px;
+    margin-bottom: 54px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
 }
+
 
 a:hover.music-notation{
     cursor:pointer;
@@ -95,8 +100,39 @@ a:hover.music-notation{
     width:40px;
     height:40px;
 }
+/* music note background image*/
 
+#note-1, #note-3, #note-4, #note-5{
+    background-image:url(./Assets/lower-half-note.png)
+}
 
+a:hover #note-1, a:hover #note-3, a:hover #note-4, a:hover #note-5, a:active #note-1, a:active #note-3, a:active #note-4, a:active #note-5, .active#note-1, .active#note-3, .active#note-4, .active#note-5{
+    background-image:url(./Assets/lower-half-note\ copy.png)
+}
+
+#note-2, #note-6, #note-7, #note-8, #note-9, #note-10, #note-11{
+    background-image: url(./Assets/low-half-note.png);
+}
+
+a:hover #note-2, a:hover #note-6, a:hover #note-7, a:hover #note-8, a:hover #note-9, a:hover #note-10, a:hover #note-11, a:active #note-2, a:active #note-6, a:active #note-7, a:active #note-8, a:active #note-9, a:active #note-10, a:active #note-11, .active#note-2, .active#note-6, .active#note-7, .active#note-8, .active#note-9, .active#note-10, .active#note-11{
+    background-image: url(./Assets/low-half-note\ copy.png);
+}
+
+#note-12{
+    background-image: url(./Assets/high-half-note.png);
+}
+
+a:hover #note-12, a:active #note-12, .active#note12{
+    background-image: url(./Assets/high-half-note\ copy.png);
+}
+
+#note-13{
+    background-image: url(./Assets/high-qrter-note.png);
+}
+
+a:hover #note-13, a:active #note-13, .active#note13{
+    background-image: url(./Assets/high-qrter-note\ copy.png);
+}
 #note-1{
     top:49px;
 }
@@ -127,7 +163,6 @@ a:hover.music-notation{
 #note-9{
     top:22px;
 }
-
 #note-10{
     top:45px;
 }
