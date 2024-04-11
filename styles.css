@@ -122,7 +122,7 @@ a:hover #note-2, a:hover #note-6, a:hover #note-7, a:hover #note-8, a:hover #not
     background-image: url(./Assets/high-half-note.png);
 }
 
-a:hover #note-12, a:active #note-12, .active#note12{
+a:hover #note-12, a:active #note-12, .active#note-12{
     background-image: url(./Assets/high-half-note\ copy.png);
 }
 
@@ -130,7 +130,7 @@ a:hover #note-12, a:active #note-12, .active#note12{
     background-image: url(./Assets/high-qrter-note.png);
 }
 
-a:hover #note-13, a:active #note-13, .active#note13{
+a:hover #note-13, a:active #note-13, .active#note-13{
     background-image: url(./Assets/high-qrter-note\ copy.png);
 }
 #note-1{

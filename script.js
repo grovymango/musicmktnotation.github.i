@@ -1,19 +1,19 @@
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
     var audio = document.getElementById("musicrev-audio");
-    var images = $(".note-img");
-    var imageIndex = 0;
+    var images = document.querySelectorAll(".note-img");
 
-    audio.addEventListener("play", function() {
-        imageIndex = 0; // Reset imageIndex to 0 when audio starts playing
-        showImage();
-    });
+    audio.addEventListener("timeupdate", updateImages);
 
-    function showImage() {
-        if (imageIndex < images.length) {
-            images.removeClass("active");
-            $("#" + images[imageIndex].id).addClass("active");
-            imageIndex++;
-            setTimeout(showImage, 1000); // Change this value to adjust the duration of each image
-        }
+    function updateImages() {
+        var currentTime = audio.currentTime;
+        images.forEach(function(image) {
+            var start = parseFloat(image.getAttribute("data-start"));
+            var end = parseFloat(image.getAttribute("data-end"));
+            if (currentTime >= start && currentTime < end) {
+                image.classList.add("active");
+            } else {
+                image.classList.remove("active");
+            }
+        });
     }
 });
