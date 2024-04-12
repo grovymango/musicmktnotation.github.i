@@ -191,14 +191,13 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 /*pie chart*/
 
 .pie-container{
-    position:relative;
-    width:300px;
-    height:300px;
-    margin:auto;
-    display:flex;
-    justify-content: center;
-    z-index:0;
-    background-image: url(./Assets/Streaming.png); /* Shared background image */
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    z-index: 0;
+    background-image: url(./Assets/Streaming.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -215,6 +214,12 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 
 .hold {
     clip: rect(0px, 300px, 300px, 150px);
+}
+
+.pie-wrap{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
 }
 /*pie slice backgrounds*/
 
@@ -843,7 +848,6 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 
 .legend{
     margin-top: 30px;
-    position: relative;
     display: flex;
     left: 40%;
     flex-direction: column;

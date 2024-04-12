@@ -70,4 +70,3 @@ $(document).ready(function() {
     }
 });
 
-$('#note-1').onclick.find('')
