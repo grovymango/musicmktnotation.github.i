@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,81 +43,90 @@
     </span>
     <div id="treble-clef" class="music-notation"></div>
     <div id="time-sig" class="music-notation"></div>
-    <a class="music-notation" title="$20.1bn">
+    <a class="music-notation yr-2011" title="$20.1bn">
       <div id="note-1" class="note-img" data-start="0" data-end="1"></div>
       <span>2011</span>
     </a>
-    <a class="music-notation" title="$20.7bn">
+    <a class="music-notation yr-2012" title="$20.7bn">
       <div id="note-2" class="note-img" data-start="1" data-end="2"></div>
       <span>2012</span>
     </a>
-    <a class="music-notation" title="$19.4bn">
+    <a class="music-notation yr-2013" title="$19.4bn">
       <div id="note-3" class="note-img" data-start="2" data-end="3"></div>
       <span>2013</span>
     </a>
-    <a class="music-notation" title="$19.2bn">
+    <a class="music-notation yr-2014" title="$19.2bn">
       <div id="note-4" class="note-img" data-start="3" data-end="4"></div>
       <span>2014</span>
     </a>
-    <a class="music-notation" title="$19.9bn">
+    <a class="music-notation yr-2015" title="$19.9bn">
       <div id="note-5" class="note-img" data-start="4" data-end="5"></div>
       <span>2015</span>
     </a>
-    <a class="music-notation" title="$22.8bn">
+    <a class="music-notation yr-2016" title="$22.8bn">
       <div id="note-6" class="note-img" data-start="5" data-end="6"></div>
       <span>2016</span>
     </a>
-    <a class="music-notation" title="$25.8bn">
+    <a class="music-notation yr-2017" title="$25.8bn">
       <div id="note-7" class="note-img" data-start="6" data-end="7"></div>
       <span>2017</span>
     </a>
-    <a class="music-notation" title="$28.2bn">
+    <a class="music-notation yr-2018" title="$28.2bn">
       <div id="note-8" class="note-img" data-start="7" data-end="8"></div>
       <span>2018</span>
     </a>
-    <a class="music-notation" title="$30.2bn">
+    <a class="music-notation yr-2019" title="$30.2bn">
       <div id="note-9" class="note-img" data-start="8" data-end="9"></div>
       <span>2019</span>
     </a>
-    <a class="music-notation" title="$22.0bn">
+    <a class="music-notation yr-2020" title="$22.0bn">
       <div id="note-10" class="note-img" data-start="9" data-end="10"></div>
       <span>2020</span>
     </a>
-    <a class="music-notation" title="$29.2bn">
+    <a class="music-notation yr-2021" title="$29.2bn">
       <div id="note-11" class="note-img" data-start="10" data-end="11"></div>
       <span>2021</span>
     </a>
-    <a class="music-notation" title="$40.1bn">
+    <a class="music-notation yr-2022" title="$40.1bn">
       <div id="note-12" class="note-img" data-start="11" data-end="12"></div>
       <span>2022</span>
     </a>
-    <a class="music-notation" title="$47.6bn">
+    <a class="music-notation yr-2023" title="$47.6bn">
       <div id="note-13" class="note-img" data-start="12" data-end="13"></div>
       <span>2023</span>
     </a>
     </div>
     </div>
     <p style="text-align: center;">(Click on each year to get a breakdown of the revenue!)</p>
-    
-
-    <div id="pieSlice1" class="hold"><div class="pie"></div></div>
-      <div id="pieSlice2" class="hold"><div class="pie"></div></div>
-      <div id="pieSlice3" class="hold"><div class="pie"></div></div>
-      <div id="pieSlice4" class="hold"><div class="pie"></div></div>
-      <div id="pieSlice5" class="hold"><div class="pie"></div></div>
-      <div id="pieSlice6" class="hold"><div class="pie"></div>
-    
-    <div class="data-source">
-      This data is sourced from:
-      <ul>
-        <li>
-          IFPI. "Recorded Music Market Revenue Worldwide from 2005 to 2023, by Source (in Billion U.S. Dollars)." <em>Statista</em>, Statista Inc., 21 Mar 2024, <a href="https://www.statista.com/statistics/193710/concert-revenue-of-live-nation-entertainment-since-2008/" target="_blank">https://www.statista.com/statistics/292081/music-revenue-worldwide-by-source/</a>    
-        </li>
-        <li>
-          Live Nation. "Live Nation Entertainment's Concert Revenue from 2008 to 2023 (in Billion U.S. Dollars)." <em>Statista</em>, Statista Inc., 22 Feb 2024, <a href="https://www.statista.com/statistics/193710/concert-revenue-of-live-nation-entertainment-since-2008/" target="_blank">https://www.statista.com/statistics/193710/concert-revenue-of-live-nation-entertainment-since-2008/</a> 
-        </li>
-      </ul>
-      </div>
-    
+<div>   
+  <h3 style="text-align:center;" id="Year"></h3>
+<div class="pie-container">
+  <div id="concerts" class="hold yr-2023"><div class="pie yr-2023"></div></div>
+  <div id="physicals" class="hold yr-2023"><div class="pie yr-2023"></div></div>
+  <div id="streams" class="hold yr-2023"><div class="pie yr-2023"></div></div>
+  <div id="downloads" class="hold yr-2023"><div class="pie yr-2023"></div></div>
+  <div id="perf-rights" class="hold yr-2023"><div class="pie yr-2023"></div></div>
+  <div id="synchron" class="hold yr-2023"><div class="pie yr-2023"></div></div>
+</div>
+<div class="legend">
+  <div class="legend-pair"><div class="legend-box" id="concerts-legend"></div> Live concerts:<span></span><span></span><span id="concerts-percentage"></span> $<span id="concert-amount"></span>billion</div>
+  <div class="legend-pair"><div class="legend-box" id="physicals-legend"></div> Physical Sales:<span></span><span></span><span id="physicals-percentage"></span> $<span id="physicals-amount"></span>billion</div>
+  <div class="legend-pair"><div class="legend-box" id="streaming-legend"></div> Streams:<span></span><span></span><span id="streams-percentage"></span> $<span id="streams-amount"></span>billion</div>
+  <div class="legend-pair"><div class="legend-box" id="downloads-legend"></div> Downloads and Digitals:<span></span><span></span><span id="downloads-percentage"></span> $<span id="downloads-amount"></span>billion</div>
+  <div class="legend-pair"><div class="legend-box" id="perf-rights-legend"></div> Performance Rights:<span></span><span></span><span id="perf-rights-percentage"></span> $<span id="perf-rights-amount"></span>billion</div>
+  <div class="legend-pair"><div class="legend-box" id="synchron-legend"></div> Synchronizations:<span></span><span></span><span id="synchron-percentage"></span> $<span id="synchron-amount"></span>billion</div>
+</div>
+</div>
+<div class="data-source">
+  This data is sourced from:
+  <ul>
+    <li>
+      IFPI. "Recorded Music Market Revenue Worldwide from 2005 to 2023, by Source (in Billion U.S. Dollars)." <em>Statista</em>, Statista Inc., 21 Mar 2024, <a href="https://www.statista.com/statistics/193710/concert-revenue-of-live-nation-entertainment-since-2008/" target="_blank">https://www.statista.com/statistics/292081/music-revenue-worldwide-by-source/</a>    
+    </li>
+    <li>
+      Live Nation. "Live Nation Entertainment's Concert Revenue from 2008 to 2023 (in Billion U.S. Dollars)." <em>Statista</em>, Statista Inc., 22 Feb 2024, <a href="https://www.statista.com/statistics/193710/concert-revenue-of-live-nation-entertainment-since-2008/" target="_blank">https://www.statista.com/statistics/193710/concert-revenue-of-live-nation-entertainment-since-2008/</a> 
+    </li>
+  </ul>
+</div>
   </body>
 </html>
