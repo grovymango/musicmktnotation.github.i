@@ -17,7 +17,7 @@ p{
 }
 #subheading-credits{
     margin-top:-30px;
-    font-size:16px;
+    font-size:10px;
 }
 body{
     padding:10px;
@@ -105,19 +105,19 @@ a:hover.music-notation{
 }
 /* music note background image*/
 
-#note-1, #note-3, #note-4, #note-5{
+#note-1, #note-2, #note-3, #note-4{
     background-image:url(./Assets/lower-half-note.png)
 }
 
-a:hover #note-1, a:hover #note-3, a:hover #note-4, a:hover #note-5, a:active #note-1, a:active #note-3, a:active #note-4, a:active #note-5, .active#note-1, .active#note-3, .active#note-4, .active#note-5{
+a:hover #note-1,a:hover #note-2, a:hover #note-3, a:hover #note-4, a:active #note-1, a:active #note-2, a:active #note-3, a:active #note-4, a:active #note-5, .active#note-1, .active#note-2, .active#note-3, .active#note-4{
     background-image:url(./Assets/lower-half-note\ copy.png)
 }
 
-#note-2, #note-6, #note-7, #note-8, #note-9, #note-10, #note-11{
+#note-5, #note-6, #note-7, #note-8, #note-9, #note-10, #note-11{
     background-image: url(./Assets/low-half-note.png);
 }
 
-a:hover #note-2, a:hover #note-6, a:hover #note-7, a:hover #note-8, a:hover #note-9, a:hover #note-10, a:hover #note-11, a:active #note-2, a:active #note-6, a:active #note-7, a:active #note-8, a:active #note-9, a:active #note-10, a:active #note-11, .active#note-2, .active#note-6, .active#note-7, .active#note-8, .active#note-9, .active#note-10, .active#note-11{
+a:hover #note-5, a:hover #note-6, a:hover #note-7, a:hover #note-8, a:hover #note-9, a:hover #note-10, a:hover #note-11, a:active #note-6, a:active #note-7, a:active #note-8, a:active #note-9, a:active #note-10, a:active #note-11, .active#note-5, .active#note-6, .active#note-7, .active#note-8, .active#note-9, .active#note-10, .active#note-11{
     background-image: url(./Assets/low-half-note\ copy.png);
 }
 
@@ -141,7 +141,7 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 }
 
 #note-2{
-    top:45px;
+    top:49px;
 }
 #note-3{
     top:49px;
@@ -150,9 +150,8 @@ a:hover #note-13, a:active #note-13, .active#note-13{
     top:49px;
 }
 #note-5{
-    top:49px;
+    top:45px;
 }
-
 #note-6{
     top:39px;
 }
@@ -162,12 +161,11 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 #note-8{
     top:27px;
 }
-
 #note-9{
     top:22px;
 }
 #note-10{
-    top:45px;
+    top:39px;
 }
 
 #note-11{
@@ -257,264 +255,264 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 /* 2011*/
 
 #concerts.yr-2011 .pie {   
-    transform:rotate(115.92deg);
+    transform:rotate(73.8deg);
 }
   
 #physicals.yr-2011 {
-    transform: rotate(115.92deg);
+    transform: rotate(73.8deg);
 }
   
 #physicals.yr-2011 .pie {
-    transform: rotate(132.84deg);
+    transform: rotate(155.52deg);
 }
   
 #streams.yr-2011 {
-    transform: rotate(248.76deg);
+    transform: rotate(229.32deg);
 }
   
 #streams.yr-2011 .pie {
-    transform: rotate(10.8deg);
+    transform: rotate(12.6deg);
 }
   
 #downloads.yr-2011 {
-    transform: rotate(259.56deg);
+    transform: rotate(241.92deg);
 }
   
 #downloads.yr-2011 .pie {
-    transform: rotate(71.64deg);
+    transform: rotate(84.24deg);
 }
   
 #perf-rights.yr-2011 {
-    transform: rotate(331.2deg);
+    transform: rotate(326.16deg);
   }
   
 #perf-rights.yr-2011 .pie {
-    transform: rotate(23.4deg);
+    transform: rotate(27.36deg);
 }
   
 #synchron.yr-2011 {
-    transform: rotate(354.6deg);
+    transform: rotate(353.52deg);
 }
   
 #synchron.yr-2011 .pie {
-    transform: rotate(5.4deg);
+    transform: rotate(6.48deg);
 }
 
 /*2012*/
 #concerts.yr-2012 .pie {   
-    transform:rotate(123.48deg);
+    transform:rotate(79.2deg);
 }
   
 #physicals.yr-2012 {
-    transform: rotate(123.48deg);
+    transform: rotate(79.2deg);
 }
   
 #physicals.yr-2012 .pie {
-    transform: rotate(118.08deg);
+    transform: rotate(140.04deg);
 }
   
 #streams.yr-2012 {
-    transform: rotate(241.56deg);
+    transform: rotate(219.24deg);
 }
   
 #streams.yr-2012 .pie {
-    transform: rotate(15.48deg);
+    transform: rotate(18.72deg);
 }
   
 #downloads.yr-2012 {
-    transform: rotate(257.04deg);
+    transform: rotate(237.96deg);
 }
   
 #downloads.yr-2012 .pie {
-    transform: rotate(73.08deg);
+    transform: rotate(86.4deg);
 }
   
 #perf-rights.yr-2012 {
-    transform: rotate(330.12deg);
+    transform: rotate(324.36deg);
   }
   
 #perf-rights.yr-2012 .pie {
-    transform: rotate(24.48deg);
+    transform: rotate(28.8deg);
 }
   
 #synchron.yr-2012 {
-    transform: rotate(354.6deg);
+    transform: rotate(353.16deg);
 }
   
 #synchron.yr-2012 .pie {
-    transform: rotate(5.4deg);
+    transform: rotate(6.12deg);
 }
 
 /*2013*/
 #concerts.yr-2013 .pie {   
-    transform:rotate(111.6deg);
+    transform:rotate(90.72deg);
 }
   
 #physicals.yr-2013 {
-    transform: rotate(111.6deg);
+    transform: rotate(90.72deg);
 }
 
 #physicals.yr-2013 .pie {
-    transform: rotate(113.04deg);
+    transform: rotate(122.4deg);
 }
   
 #streams.yr-2013 {
-    transform: rotate(224.64deg);
+    transform: rotate(213.12deg);
 }
   
 #streams.yr-2013 .pie {
-    transform: rotate(24.12deg);
+    transform: rotate(26.28deg);
 }
   
 #downloads.yr-2013 {
-    transform: rotate(248.76deg);
+    transform: rotate(239.4deg);
 }
   
 #downloads.yr-2013 .pie {
-    transform: rotate(75.96deg);
+    transform: rotate(82.44deg);
 }
   
 #perf-rights.yr-2013 {
-    transform: rotate(324.72deg);
+    transform: rotate(321.84deg);
   }
   
 #perf-rights.yr-2013 .pie {
-    transform: rotate(29.52deg);
-}
-  
-#synchron.yr-2013 {
-    transform: rotate(354.24deg);
-}
-  
-#synchron.yr-2013 .pie {
-    transform: rotate(5.4deg);
-}
-/*2014*/
-#concerts.yr-2014 .pie {   
-    transform:rotate(117.36deg);
-}
-  
-#physicals.yr-2014 {
-    transform: rotate(117.36deg);
-}
-  
-#physicals.yr-2014 .pie {
-    transform: rotate(99.72deg);
-}
-  
-#streams.yr-2014 {
-    transform: rotate(217.08deg);
-}
-  
-#streams.yr-2014 .pie {
-    transform: rotate(33.84deg);
-}
-  
-#downloads.yr-2014 {
-    transform: rotate(250.92deg);
-}
-  
-#downloads.yr-2014 .pie {
-    transform: rotate(71.28deg);
-}
-  
-#perf-rights.yr-2014 {
-    transform: rotate(322.2deg);
-  }
-  
-#perf-rights.yr-2014 .pie {
     transform: rotate(32.04deg);
 }
   
+#synchron.yr-2013 {
+    transform: rotate(353.88deg);
+}
+  
+#synchron.yr-2013 .pie {
+    transform: rotate(6.12deg);
+}
+/*2014*/
+#concerts.yr-2014 .pie {   
+    transform:rotate(96.48deg);
+}
+  
+#physicals.yr-2014 {
+    transform: rotate(96.48deg);
+}
+  
+#physicals.yr-2014 .pie {
+    transform: rotate(108.36deg);
+}
+  
+#streams.yr-2014 {
+    transform: rotate(204.84deg);
+}
+  
+#streams.yr-2014 .pie {
+    transform: rotate(36.72deg);
+}
+  
+#downloads.yr-2014 {
+    transform: rotate(241.56deg);
+}
+  
+#downloads.yr-2014 .pie {
+    transform: rotate(77.76deg);
+}
+  
+#perf-rights.yr-2014 {
+    transform: rotate(319.32deg);
+  }
+  
+#perf-rights.yr-2014 .pie {
+    transform: rotate(34.56deg);
+}
+  
 #synchron.yr-2014 {
-    transform: rotate(354.24deg);
+    transform: rotate(353.88deg);
 }
   
 #synchron.yr-2014 .pie {
-    transform: rotate(5.76deg);
+    transform: rotate(6.12deg);
 }
 /*2015*/
 
 #concerts.yr-2015 .pie {   
-    transform:rotate(117.72deg);
+    transform:rotate(97.2deg);
 }
   
 #physicals.yr-2015 {
-    transform: rotate(117.72deg);
+    transform: rotate(97.2deg);
 }
   
 #physicals.yr-2015 .pie {
-    transform: rotate(92.16deg);
+    transform: rotate(100.08deg);
 }
   
 #streams.yr-2015 {
-    transform: rotate(209.88deg);
+    transform: rotate(197.28deg);
 }
   
 #streams.yr-2015 .pie {
-    transform: rotate(47.16deg);
+    transform: rotate(51.12deg);
 }
   
 #downloads.yr-2015 {
-    transform: rotate(257.04deg);
+    transform: rotate(248.4deg);
 }
   
 #downloads.yr-2015 .pie {
-    transform: rotate(65.16deg);
+    transform: rotate(70.56deg);
 }
   
 #perf-rights.yr-2015 {
-    transform: rotate(322.2deg);
+    transform: rotate(318.96deg);
   }
   
 #perf-rights.yr-2015 .pie {
-    transform: rotate(32.4deg);
+    transform: rotate(35.28deg);
 }
   
 #synchron.yr-2015 {
-    transform: rotate(354.6deg);
+    transform: rotate(354.24deg);
 }
   
 #synchron.yr-2015 .pie {
-    transform: rotate(5.4deg);
+    transform: rotate(5.76deg);
 }
 
 /*2016*/
 
 #concerts.yr-2016 .pie {   
-    transform:rotate(127.44deg);
+    transform:rotate(107.64deg);
 }
   
 #physicals.yr-2016 {
-    transform: rotate(127.44deg);
+    transform: rotate(107.64deg);
 }
   
 #physicals.yr-2016 .pie {
-    transform: rotate(77.4deg);
+    transform: rotate(84.24deg);
 }
   
 #streams.yr-2016 {
-    transform: rotate(204.84deg);
+    transform: rotate(191.88deg);
 }
   
 #streams.yr-2016 .pie {
-    transform: rotate(69.48deg);
+    transform: rotate(75.6deg);
 }
   
 #downloads.yr-2016 {
-    transform: rotate(274.32deg);
+    transform: rotate(267.48deg);
 }
   
 #downloads.yr-2016 .pie {
-    transform: rotate(47.52deg);
+    transform: rotate(51.48deg);
 }
   
 #perf-rights.yr-2016 {
-    transform: rotate(321.84deg);
+    transform: rotate(318.96deg);
   }
   
 #perf-rights.yr-2016 .pie {
-    transform: rotate(33.12deg);
+    transform: rotate(36deg);
 }
   
 #synchron.yr-2016 {
@@ -522,137 +520,137 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 }
   
 #synchron.yr-2016 .pie {
-    transform: rotate(4.68deg);
+    transform: rotate(5.04deg);
 }
 
 /*2017*/
 
 #concerts.yr-2017 .pie {   
-    transform:rotate(138.24deg);
+    transform:rotate(119.52deg);
 }
   
 #physicals.yr-2017 {
-    transform: rotate(138.24deg);
+    transform: rotate(119.52deg);
 }
   
 #physicals.yr-2017 .pie {
-    transform: rotate(64.08deg);
+    transform: rotate(69.48deg);
 }
   
 #streams.yr-2017 {
-    transform: rotate(202.32deg);
+    transform: rotate(189deg);
 }
   
 #streams.yr-2017 .pie {
-    transform: rotate(86.4deg);
+    transform: rotate(93.96deg);
 }
   
 #downloads.yr-2017 {
-    transform: rotate(288.72deg);
+    transform: rotate(282.96deg);
 }
   
 #downloads.yr-2017 .pie {
-    transform: rotate(34.92deg);
+    transform: rotate(37.8deg);
 }
   
 #perf-rights.yr-2017 {
-    transform: rotate(323.64deg);
+    transform: rotate(320.76deg);
   }
   
 #perf-rights.yr-2017 .pie {
-    transform: rotate(30.6deg);
+    transform: rotate(33.12deg);
 }
   
 #synchron.yr-2017 {
-    transform: rotate(354.24deg);
+    transform: rotate(353.88deg);
 }
   
 #synchron.yr-2017 .pie {
-    transform: rotate(5.4deg);
+    transform: rotate(6.12deg);
 }
 
 /*2018*/
 
 #concerts.yr-2018 .pie {   
-    transform:rotate(138.24deg);
+    transform:rotate(120.6deg);
 }
   
 #physicals.yr-2018 {
-    transform: rotate(138.24deg);
+    transform: rotate(120.6deg);
 }
   
 #physicals.yr-2018 .pie {
-    transform: rotate(52.2deg);
+    transform: rotate(56.52deg);
 }
   
 #streams.yr-2018 {
-    transform: rotate(190.44deg);
+    transform: rotate(177.12deg);
 }
   
 #streams.yr-2018 .pie {
-    transform: rotate(112.32deg);
+    transform: rotate(120.96deg);
 }
   
 #downloads.yr-2018 {
-    transform: rotate(302.76deg);
+    transform: rotate(298.08deg);
 }
   
 #downloads.yr-2018 .pie {
-    transform: rotate(20.52deg);
+    transform: rotate(21.96deg);
 }
   
 #perf-rights.yr-2018 {
-    transform: rotate(323.28deg);
+    transform: rotate(320.04deg);
   }
   
 #perf-rights.yr-2018 .pie {
-    transform: rotate(32.04deg);
+    transform: rotate(34.56deg);
 }
   
 #synchron.yr-2018 {
-    transform: rotate(355.32deg);
+    transform: rotate(354.6deg);
 }
   
 #synchron.yr-2018 .pie {
-    transform: rotate(5.04deg);
+    transform: rotate(5.4deg);
 }
 
 /*2019*/
 
 #concerts.yr-2019 .pie {   
-    transform:rotate(135.72deg);
+    transform:rotate(120.24deg);
 }
   
 #physicals.yr-2019 {
-    transform: rotate(135.72deg);
+    transform: rotate(120.24deg);
 }
   
 #physicals.yr-2019 .pie {
-    transform: rotate(46.44deg);
+    transform: rotate(49.68deg);
 }
   
 #streams.yr-2019 {
-    transform: rotate(182.16deg);
+    transform: rotate(169.92deg);
 }
   
 #streams.yr-2019 .pie {
-    transform: rotate(127.44deg);
+    transform: rotate(136.44deg);
 }
   
 #downloads.yr-2019 {
-    transform: rotate(309.6deg);
+    transform: rotate(306.36deg);
 }
   
 #downloads.yr-2019 .pie {
-    transform: rotate(16.56deg);
+    transform: rotate(18deg);
 }
   
 #perf-rights.yr-2019 {
-    transform: rotate(326.16deg);
+    transform: rotate(324.36deg);
   }
   
 #perf-rights.yr-2019 .pie {
-    transform: rotate(28.8deg);
+    transform: rotate(30.6deg);
 }
   
 #synchron.yr-2019 {
@@ -660,33 +658,33 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 }
   
 #synchron.yr-2019 .pie {
-    transform: rotate(4.68deg);
+    transform: rotate(5.04deg);
 }
 
 /*2020*/
 
 #concerts.yr-2020 .pie {   
-    transform:rotate(28.8deg);
+    transform:rotate(24.48deg);
 }
   
 #physicals.yr-2020 {
-    transform: rotate(28.8deg);
+    transform: rotate(24.48deg);
 }
   
 #physicals.yr-2020 .pie {
-    transform: rotate(60.84deg);
+    transform: rotate(61.56deg);
 }
   
 #streams.yr-2020 {
-    transform: rotate(89.64deg);
+    transform: rotate(86.04deg);
 }
   
 #streams.yr-2020 .pie {
-    transform: rotate(208.44deg);
+    transform: rotate(210.96deg);
 }
 
 #downloads.yr-2020 {
-    transform: rotate(298.08deg);
+    transform: rotate(297deg);
 }
   
 #downloads.yr-2020 .pie {
@@ -694,15 +692,15 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 }
   
 #perf-rights.yr-2020 {
-    transform: rotate(317.88deg);
+    transform: rotate(316.8deg);
   }
   
 #perf-rights.yr-2020 .pie {
-    transform: rotate(36deg);
+    transform: rotate(36.72deg);
 }
   
 #synchron.yr-2020 {
-    transform: rotate(353.88deg);
+    transform: rotate(353.52deg);
 }
   
 #synchron.yr-2020 .pie {
@@ -712,27 +710,27 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 /*2021*/
 
 #concerts.yr-2021 .pie {   
-    transform:rotate(64.8deg);
+    transform:rotate(59.4deg);
 }
   
 #physicals.yr-2021 {
-    transform: rotate(64.8deg);
+    transform: rotate(59.4deg);
 }
   
 #physicals.yr-2021 .pie {
-    transform: rotate(52.92deg);
+    transform: rotate(54deg);
 }
   
 #streams.yr-2021 {
-    transform: rotate(117.72deg);
+    transform: rotate(113.4deg);
 }
   
 #streams.yr-2021 .pie {
-    transform: rotate(194.04deg);
+    transform: rotate(197.64deg);
 }
   
 #downloads.yr-2021 {
-    transform: rotate(311.76deg);
+    transform: rotate(311.04deg);
 }
   
 #downloads.yr-2021 .pie {
@@ -740,49 +738,49 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 }
   
 #perf-rights.yr-2021 {
-    transform: rotate(325.44deg);
+    transform: rotate(324.72deg);
   }
   
 #perf-rights.yr-2021 .pie {
-    transform: rotate(28.44deg);
+    transform: rotate(28.8deg);
 }
   
 #synchron.yr-2021 {
-    transform: rotate(353.88deg);
+    transform: rotate(353.52deg);
 }
   
 #synchron.yr-2021 .pie {
-    transform: rotate(5.4deg);
+    transform: rotate(6.12deg);
 }
 
 /*2022*/
 
 #concerts.yr-2022 .pie {   
-    transform:rotate(126.72deg);
+    transform:rotate(123.12deg);
 }
   
 #physicals.yr-2022 {
-    transform: rotate(126.72deg);
+    transform: rotate(123.12deg);
 }
   
 #physicals.yr-2022 .pie {
-    transform: rotate(40.32deg);
+    transform: rotate(41.04deg);
 }
   
 #streams.yr-2022 {
-    transform: rotate(167.04deg);
+    transform: rotate(164.16deg);
 }
   
 #streams.yr-2022 .pie {
-    transform: rotate(156.96deg);
+    transform: rotate(159.48deg);
 }
   
 #downloads.yr-2022 {
-    transform: rotate(324deg);
+    transform: rotate(323.64deg);
 }
   
 #downloads.yr-2022 .pie {
-    transform: rotate(7.92deg);
+    transform: rotate(8.28deg);
 }
   
 #perf-rights.yr-2022 {
@@ -790,11 +788,11 @@ a:hover #note-13, a:active #note-13, .active#note-13{
   }
   
 #perf-rights.yr-2022 .pie {
-    transform: rotate(22.32deg);
+    transform: rotate(22.68deg);
 }
   
 #synchron.yr-2022 {
-    transform: rotate(354.24deg);
+    transform: rotate(354.6deg);
 }
   
 #synchron.yr-2022 .pie {
@@ -804,23 +802,23 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 /*2023*/
 
 #concerts.yr-2023 .pie {   
-    transform:rotate(143.64deg);
+    transform:rotate(142.56deg);
 }
   
 #physicals.yr-2023 {
-    transform: rotate(143.64deg);
+    transform: rotate(142.56deg);
 }
   
 #physicals.yr-2023 .pie {
-    transform: rotate(38.52deg);
+    transform: rotate(38.88deg);
 }
   
 #streams.yr-2023 {
-    transform: rotate(182.16deg);
+    transform: rotate(181.44deg);
 }
   
 #streams.yr-2023 .pie {
-    transform: rotate(146.16deg);
+    transform: rotate(146.88deg);
 }
   
 #downloads.yr-2023 {
@@ -884,5 +882,5 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 
 p, h3{
     margin-bottom:0px;
-
+    margin-top:5px;
 }
