@@ -70,3 +70,51 @@ $(document).ready(function() {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    var audio = document.getElementById("musicrev-audio");
+    var images = document.querySelectorAll(".note-img");
+
+    audio.addEventListener("timeupdate", function() {
+        updateImages();
+        updateAmounts(); // Call the function to update amounts based on audio timestamp
+    });
+
+    function updateImages() {
+        var currentTime = audio.currentTime;
+        images.forEach(function(image) {
+            var start = parseFloat(image.getAttribute("data-start"));
+            var end = parseFloat(image.getAttribute("data-end"));
+            if (currentTime >= start && currentTime < end) {
+                image.classList.add("active");
+            } else {
+                image.classList.remove("active");
+            }
+        });
+    }
+
+    // Define the arrays for amounts here
+    const concerts = ['6.45', '7.11', '6.02', '6.25', '6.51', '8.07', '9.93', '10.83', '11.39', '1.75', '5.25', '14.10', '18.98'];
+    const physicals = ['7.40 ', '6.80 ', '6.10 ', '5.30 ', '5.10 ', '4.90 ', '4.60 ', '4.10 ', '3.90 ', '3.70 ', '4.30 ', '4.50 ', '5.10'];
+    const streams = ['0.60 ', '0.90 ', '1.30 ', '1.80 ', '2.60 ', '4.40 ', '6.20 ', '8.80 ', '10.70 ', '12.70 ', '15.70 ', '17.50 ', '19.30'];
+    const downloads = ['4.00 ', '4.20 ', '4.10 ', '3.80 ', '3.60 ', '3.00 ', '2.50 ', '1.60 ', '1.40 ', '1.20 ', '1.10 ', '0.90 ', '0.90'];
+    const perfrights = ['1.30 ', '1.40 ', '1.60 ', '1.70 ', '1.80 ', '2.10 ', '2.20 ', '2.50 ', '2.40 ', '2.20 ', '2.30 ', '2.50 ', '2.70'];
+    const synchron = ['0.30 ', '0.30 ', '0.30 ', '0.30 ', '0.30 ', '0.30 ', '0.40 ', '0.40 ', '0.40 ', '0.40 ', '0.50 ', '0.60 ', '0.60'];
+
+    function updateAmounts() {
+        var currentTime = audio.currentTime;
+        // Calculate the year based on the current time
+        var year = Math.floor(currentTime / 1) + 2011;
+
+        // Extract the index based on the year
+        var index = year - 2011;
+
+        // Set text for each element
+        $('#Year').text(year);
+        $('#concert-amount').text(concerts[index]);
+        $('#physicals-amount').text(physicals[index]);
+        $('#streams-amount').text(streams[index]);
+        $('#downloads-amount').text(downloads[index]);
+        $('#perf-rights-amount').text(perfrights[index]);
+        $('#synchron-amount').text(synchron[index]);
+    }
+});
