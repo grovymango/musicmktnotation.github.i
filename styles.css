@@ -869,3 +869,20 @@ a:hover #note-13, a:active #note-13, .active#note-13{
     border-radius: 50%;
     display:inline-block;
 }
+
+.note{
+    margin-top: 30px;
+    display: flex;
+}
+
+.note-col{
+    display:flex;
+    flex-direction:column;
+    width:40vw;
+    max-width:500px;
+}
+
+p, h3{
+    margin-bottom:0px;
+
+}
