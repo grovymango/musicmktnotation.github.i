@@ -241,15 +241,18 @@ a:hover #note-13, a:active #note-13, .active#note-13{
 }
 
 #downloads .pie, #downloads-legend {
-    background-color: #08f;
+    background-image:url(./Assets/pink.png);
+    background-size:cover;
 }
 
 #perf-rights .pie , #perf-rights-legend {
-    background-color: #a04;
+    background-image:url(./Assets/teal.png);
+    background-size:cover;
 }
 
 #synchron .pie, #synchron-legend{
-    background-color: #ffd700;
+    background-image:url(./Assets/yellow.png);
+    background-size:cover;
 }
 /* 2011*/
 
